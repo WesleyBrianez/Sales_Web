@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\b2z_cSharp\\SalesWebMVC\\SalesWebMVC.csproj": {}
+    "C:\\Temp\\SalesWebMVC\\SalesWebMVC.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\b2z_cSharp\\SalesWebMVC\\SalesWebMVC.csproj": {
+    "C:\\Temp\\SalesWebMVC\\SalesWebMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\b2z_cSharp\\SalesWebMVC\\SalesWebMVC.csproj",
+        "projectUniqueName": "C:\\Temp\\SalesWebMVC\\SalesWebMVC.csproj",
         "projectName": "SalesWebMVC",
-        "projectPath": "C:\\Temp\\b2z_cSharp\\SalesWebMVC\\SalesWebMVC.csproj",
+        "projectPath": "C:\\Temp\\SalesWebMVC\\SalesWebMVC.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\b2z_cSharp\\SalesWebMVC\\obj\\",
+        "outputPath": "C:\\Temp\\SalesWebMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
